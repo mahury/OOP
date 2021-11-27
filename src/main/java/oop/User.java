@@ -4,18 +4,24 @@ public class User {
     private int  id;
     private String login;
     private String password;
+    private static int count =0;
 
     public User(int id, String login, String password) {
         this.id = id;
         this.login = login;
         this.password = password;
+        count++;
     }
     public User (){
-        this(0,"guest","");
+        this(count +1000,"guest","");
     }
 
     public int getId() {
         return id;
+    }
+
+    public static int getCount() {
+        return count;
     }
 
     public void setId(int id) {

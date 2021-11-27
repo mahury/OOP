@@ -45,7 +45,13 @@ public class OOP1 {
         u2.setPassword("pass");
         System.out.println(u2.getId());
         System.out.println(u2.getLogin());
-
+        System.out.println("counter "+ p2.getCount());
+        System.out.println(u2.getCount());
+        System.out.println(MyMath.add(2,8));
+        System.out.println(MyMath.sub(2,8));
+        System.out.println(MyMath.mult(2,8));
+        System.out.println(MyMath.div(4,2));
+  //      System.out.println(MyMath.getCount());
 
 
 

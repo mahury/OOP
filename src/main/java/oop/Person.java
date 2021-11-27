@@ -4,11 +4,14 @@ public class Person {
     String name;
     String city;
     int age;
+    private static int count=0;
+
 
     public Person(String name, String city, int age){
         this.name=name;
         this.city=city;
         this.age=age;
+        count++;
     }
     public Person(){
 //        this.name= "noname";
@@ -17,6 +20,9 @@ public class Person {
         this("john doe","DC",18);
     }
 
+    public static int getCount() {
+        return count;
+    }
 
     public String getTextInfo (){
         return "name " + this.name + " city "+ this.city + " age " + this.age;
