@@ -1,14 +1,17 @@
 package oop;
 
 public class User {
-    int id;
-    String login;
-    String password;
+    private int  id;
+    private String login;
+    private String password;
 
     public User(int id, String login, String password) {
         this.id = id;
         this.login = login;
         this.password = password;
+    }
+    public User (){
+        this(0,"guest","");
     }
 
     public int getId() {

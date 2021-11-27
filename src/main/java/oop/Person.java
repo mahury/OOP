@@ -10,6 +10,14 @@ public class Person {
         this.city=city;
         this.age=age;
     }
+    public Person(){
+//        this.name= "noname";
+//        this.city="nowhere";
+//        this.age=0;
+        this("john doe","DC",18);
+    }
+
+
     public String getTextInfo (){
         return "name " + this.name + " city "+ this.city + " age " + this.age;
     }

@@ -23,7 +23,7 @@ public class OOP1 {
         u_arr[2]= new User(3,"three","1234");
 
         for (User user : u_arr) {
-            System.out.println("id=" + user.id + "; логин=" + user.login + "; password=" + user.password);
+            System.out.println("id=" + user.getId() + "; логин=" + user.getLogin() + "; password=" + user.getPassword());
         }
         Person p1 = new Person("Igor","omsk",20);
         System.out.println(p1.getTextInfo());
@@ -36,6 +36,16 @@ public class OOP1 {
         System.out.println(p1.getName());
         Person p2 = new Person("nik", "tver", 82);
         p2.whoIsOlder(p1);
+
+        User u2 = new User();
+        System.out.println(u2.getLogin());
+        System.out.println(u2.getId());
+        u2.setId(5);
+        u2.setLogin("usver");
+        u2.setPassword("pass");
+        System.out.println(u2.getId());
+        System.out.println(u2.getLogin());
+
 
 
 
