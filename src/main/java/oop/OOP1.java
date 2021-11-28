@@ -64,6 +64,10 @@ public class OOP1 {
         System.out.println(f.nameFirm);
         System.out.println(f.director.name);
         System.out.println(f.director.isPensioner());
+        MyLine l = new MyLine(1,1,2,2);
+        MyLine k = new MyLine(3,3,2,2);
+        System.out.println("x start  "+ l.pointStart.getX() +" y start " + l.pointStart.getY()  );
+
 
 
 

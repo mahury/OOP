@@ -9,7 +9,6 @@ public class Firm {
         this.director = new Director(nameDirecor, age);
 
 
-//          public Director(String name, )
         }
         class Director{
             public String name;
