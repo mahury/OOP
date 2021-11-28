@@ -3,6 +3,10 @@ package oop;
 public class WebMaster extends User {
     private String site;
 
+    public void printUser(){
+        System.out.println(   " login " + getLogin() + " site "  + site );
+    }
+
     public String getSite() {
         return site;
     }

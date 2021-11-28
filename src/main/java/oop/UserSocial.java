@@ -26,5 +26,9 @@ public class UserSocial extends User{
         this.age = age;
     }
 
+    public void printUser(){
+        System.out.println( "age " + getAge() + " login " + getLogin() );
+    }
+
 
 }

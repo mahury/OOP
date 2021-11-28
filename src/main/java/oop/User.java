@@ -1,10 +1,12 @@
 package oop;
 
-public class User {
+public abstract class User {
     private int  id;
     private String login;
     private String password;
     private static int count =0;
+
+    public abstract void printUser();
 
     public User(int id, String login, String password) {
         this.id = id;

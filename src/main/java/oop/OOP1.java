@@ -17,7 +17,7 @@ public class OOP1 {
             System.out.println(temp.name + " " + temp.city + " "+ temp.age);
 
         }
-        User[] u_arr = new User[3];
+   /*     User[] u_arr = new User[3];
         u_arr[0]= new User(1,"one","123");
         u_arr[1]= new User(2,"two","1235");
         u_arr[2]= new User(3,"three","1234");
@@ -25,7 +25,7 @@ public class OOP1 {
         for (User user : u_arr) {
             System.out.println("id=" + user.getId() + "; логин=" + user.getLogin() + "; password=" + user.getPassword());
         }
-        Person p1 = new Person("Igor","omsk",20);
+*/        Person p1 = new Person("Igor","omsk",20);
         System.out.println(p1.getTextInfo());
 
         p1.setName("oleg");
@@ -37,7 +37,7 @@ public class OOP1 {
         Person p2 = new Person("nik", "tver", 82);
         p2.whoIsOlder(p1);
 
-        User u2 = new User();
+  /*      User u2 = new User();
         System.out.println(u2.getLogin());
         System.out.println(u2.getId());
         u2.setId(5);
@@ -45,8 +45,9 @@ public class OOP1 {
         u2.setPassword("pass");
         System.out.println(u2.getId());
         System.out.println(u2.getLogin());
-        System.out.println("counter "+ p2.getCount());
-        System.out.println(u2.getCount());
+*/
+  //      System.out.println("counter "+ p2.getCount());
+  //      System.out.println(u2.getCount());
         System.out.println(MyMath.add(2,8));
         System.out.println(MyMath.sub(2,8));
         System.out.println(MyMath.mult(2,8));
@@ -67,6 +68,9 @@ public class OOP1 {
         MyLine l = new MyLine(1,1,2,2);
         MyLine k = new MyLine(3,3,2,2);
         System.out.println("x start  "+ l.pointStart.getX() +" y start " + l.pointStart.getY()  );
+        System.out.println("x start  "+ k.pointStart.getX() +" y start " + k.pointStart.getY()  );
+        us1.printUser();
+        w1.printUser();
 
 
 
