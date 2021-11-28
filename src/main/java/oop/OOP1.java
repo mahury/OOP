@@ -52,6 +52,22 @@ public class OOP1 {
         System.out.println(MyMath.mult(2,8));
         System.out.println(MyMath.div(4,2));
   //      System.out.println(MyMath.getCount());
+        UserSocial us1 = new UserSocial(7, "mike", "544", "mike", 56);
+        WebMaster w1 = new WebMaster(8, "ann", "333", "abc.com");
+        us1.setAge(47);
+        System.out.println(us1.getName());
+        System.out.println(us1.getId());
+        w1.setSite("bds.mk");
+        System.out.println(w1.getSite());
+
+        Firm f = new Firm("meaw","ike",76);
+        System.out.println(f.nameFirm);
+        System.out.println(f.director.name);
+        System.out.println(f.director.isPensioner());
+
+
+
+
 
 
 

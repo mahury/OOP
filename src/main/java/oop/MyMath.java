@@ -1,7 +1,9 @@
 package oop;
 
 public class MyMath {
-    private static int  count = 0;
+ //   int meaw =4;
+    private static int  counter = 0;
+
     static int add(int a, int b){
         return a+b;
     //    count++;
@@ -18,6 +20,6 @@ public class MyMath {
 
     public  int getCount() {
 
-        return count;
+        return counter;
     }
 }
